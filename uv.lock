@@ -93,6 +93,7 @@ dependencies = [
     { name = "osmnx" },
     { name = "pandas" },
     { name = "pyscipopt" },
+    { name = "scipy" },
 ]
 
 [package.dev-dependencies]
@@ -112,6 +113,7 @@ requires-dist = [
     { name = "osmnx", specifier = ">=2.0.4" },
     { name = "pandas", specifier = ">=2.3.0" },
     { name = "pyscipopt", specifier = ">=5.5.0" },
+    { name = "scipy", specifier = ">=1.16.0" },
 ]
 
 [package.metadata.requires-dev]
